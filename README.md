@@ -11,6 +11,7 @@ unit test/predict test
 python3 -m unittest tests.predict
 
 test results:
+"""
 (env_tf) deming@ml-instance:/data/SC24.6.12/project$ python3 -m unittest tests.train
 Found 180 files belonging to 3 classes.
 Found 180 files belonging to 3 classes.
@@ -97,3 +98,4 @@ actural object: apple   predicted object:apple
 Ran 0 tests in 0.000s
 
 OK
+"""
