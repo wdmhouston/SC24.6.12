@@ -11,13 +11,12 @@ unit test/predict test
 python3 -m unittest tests.predict
 
 test results:
-"""
 (env_tf) deming@ml-instance:/data/SC24.6.12/project$ python3 -m unittest tests.train
 Found 180 files belonging to 3 classes.
 Found 180 files belonging to 3 classes.
 Found 29 files belonging to 3 classes.
 Model: "sequential"
-_________________________________________________________________
+_________________________________________________________________\
 Layer (type)                 Output Shape              Param #
 =================================================================
 conv2d (Conv2D)              (None, 222, 222, 32)      896
@@ -98,4 +97,3 @@ actural object: apple   predicted object:apple
 Ran 0 tests in 0.000s
 
 OK
-"""
